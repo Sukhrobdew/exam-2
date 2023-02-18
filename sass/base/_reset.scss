@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*,*::after, *::before {
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    // 1920-310*2=1300
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
